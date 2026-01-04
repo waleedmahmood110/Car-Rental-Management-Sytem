@@ -1,6 +1,6 @@
 # Daily Expense Tracker
 
-This project is created for PF semester project.
+This project is created for AICT semester project.
 
 ## Features
 - Simple website
@@ -21,3 +21,4 @@ https://rentcar2165.netlify.app/
 ## Author
 Name: Waleed Mahmood  
 Roll No: 2025-CS-222
+

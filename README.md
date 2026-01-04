@@ -1,2 +1,25 @@
 # Car-Rental-Management-Sytem
-This is the project on car rentalmamnagement system which include website , excel, word , ppt.
+# Daily Expense Tracker
+
+This project is created for PF semester project.
+
+## Features
+- Simple website
+- Expense data stored in Excel
+- Charts created from Excel
+- Responsive design
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- MS Excel
+- GitHub Pages
+
+## Live Demo
+https://rentcar2165.netlify.app/
+
+## Author
+Name: Waleed Mahmood  
+Roll No: 2025-CS-222
+

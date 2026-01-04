@@ -1,7 +1,7 @@
 # Car-Rental-Management-Sytem
 # Daily Expense Tracker
 
-This project is created for PF semester project.
+This project is created for AICT semester project.
 
 ## Features
 - Simple website

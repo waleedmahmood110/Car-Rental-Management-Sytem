@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel E-commerce Website</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Initialize tooltips
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+      </script>
+      <script src="https://kit.fontawesome.com/cd7909bbc6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-md-top" id ="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id ="logo"><h1 id = "logo">rent<span id = "logo">C</span>ar</h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Home Section -->
+
+
+  		<section class="home" id="home">
+			<div class="content">
+				<h5>Rent a car, Ride it safely and return to us.</h5>
+				<h1>Rent <span class ="changecontent"></span></h1>
+				<p>Welcome to our car rental service, providing reliable and comfortable vehicles for your travel needs.
+We offer well-maintained cars with flexible rental options at competitive prices.</p>
+				<a href="#rent">Rent Now</a>
+			</div>
+		</section>
+
+	<!-- Home Section -->
+	<!-- Contact section -->
+
+			<section class="contact" id="contact">
+				<div class="container">
+					<div class="main-text my-md-5 text-center">
+						<h1><span>C</span>ontact</h1>
+					</div>
+	
+					<div class="row mb-3">
+						<div class="col-md-6 py-3 py-md-0">
+							<div class="card">
+								<img src="image/contact.jpg" alt="contact">
+							</div>
+						</div>
+						<div class="col-md-6 py-3 py-md-0">
+							<form action="">
+								<input type="text" class ="form-control" placeholder ="Where to?" required><br>
+								<input type="text" class ="form-control" placeholder ="How Many?" required><br>
+								<input type="date" class ="form-control" required><br>
+								<input type="date" class ="form-control" required><br>
+								<textarea placeholder ="Enter Your Name and Details..." class ="form-control"></textarea><br>
+								<input type="submit" value ="Rent Now" class ="submit" required>
+							</form>
+						</div>
+					</div>
+	
+				</div>
+			</section>
+
+	<!-- Contact section -->
+	<!-- Packages Section -->
+
+			<section class="packages" id="packages">
+				<div class="container">
+					<div class="main-text my-md-5 text-center">
+						<h1><span>P</span>ackages</h1>
+					</div>
+
+					
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/corolla.webp" alt="Image">
+								<div class="card-body">
+									<h3>Toyota Corolla</h3>
+									<p>
+										Reliable, Comfortable, FuelEfficient, Spacious, Durable, Smooth									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>10,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/yaris.jpg" alt="Image">
+								<div class="card-body">
+									<h3>Toyota Yaris</h3>
+									<p>
+										FuelEfficient, Compact, Comfortable, Reliable, Smooth, Modern
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>11,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/city.jpg" alt="Image">
+								<div class="card-body">
+									<h3>Honda City</h3>
+									
+									<p>
+										Stylish, Comfortable, FuelEfficient, Spacious, Reliable, Smooth, Aerodynamic, Refined
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>12,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="row" style ="margin : 20px 0;">
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/elantra.avif" alt="Image">
+								<div class="card-body">
+									<h3>Hyundai Elantra</h3>
+									<p>
+										Stylish, Efficient, Comfortable, Reliable, Spacious, Advanced, Smooth, Practical
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>10,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+						
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/sonata.webp" alt="Image">
+								<div class="card-body">
+									<h3>Hyundai Sonata</h3>
+									<p>
+										Luxurious, Spacious, Comfortable, Stylish, Efficient, Reliable, Advanced, Smooth
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>14,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/fortuner.jpg" alt="Image">
+								<div class="card-body">
+									<h3>Toyota Fortuner</h3>
+									<p>
+										Powerful, Rugged, Spacious, Reliable, Comfortable, Durable, Stylish, Off-road
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>22,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="row" style ="margin : 20px 0;">
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/cultus.jpg" alt="Image">
+								<div class="card-body">
+									<h3>Suzuki Cultus</h3>
+									<p>
+										FuelEfficient, Compact, Affordable, Reliable, EasyHandling, Lightweight, Economical
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>12,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+						
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/wagonR.avif" alt="Image">
+								<div class="card-body">
+									<h3>Suzuki Wagnon R</h3>
+									<p>
+										Fuel-efficient, Compact, Reliable, Affordable, Spacious, Comfortable, Practical, Stylish
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>6,600PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/civic.avif" alt="Image">
+								<div class="card-body">
+									<h3>Honda Civic</h3>
+									<p>
+										Stylish, Powerful, Comfortable, Reliable, Spacious, Efficient, Advanced, Sporty
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>14,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="row" style ="margin : 20px 0;">
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/prado.jpg" alt="Image">
+								<div class="card-body">
+									<h3>Toyota Prado</h3>
+									<p>
+										Luxurious, Powerful, Spacious, Reliable, Comfortable, Rugged, Stylish, Advanced
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>24,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+						
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/kia.webp" alt="Image">
+								<div class="card-body">
+									<h3>KIA Sportage</h3>
+									<p>
+										Stylish, Comfortable, Spacious, Reliable, Efficient, Advanced, Smooth, Practical
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>21,500PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<img src="image/hiace.png" alt="Image">
+								<div class="card-body">
+									<h3>Toyota Hiace</h3>
+									<p>
+										Stylish, Powerful, Comfortable, Reliable, Spacious, Efficient, Advanced, Sporty
+									</p>
+									<div class="star">
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star checked"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+									</div>
+									<h5>Price: <strong>32,000PKR</strong></h5>
+									<a href="#contact">Rent Here</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+
+	<!--Packages Section -->
+	<!-- Servises Section -->
+
+			<section class="services" id="services">
+				<div class="container">
+					<div class="main-text pb-5 text-center">
+						<h1><span>S</span>ervices</h1>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4 py-3 py-md-0">
+							<div class="card">
+								<i class="fas fa-key"></i>
+								<div class="card-body">
+									
+									<h3>Self-Drive Rentals</h3>
+									<p>
+										Enjoy the freedom of the road with our flexible and well-maintained self-drive fleet.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 py-3 py-md-0">
+							<div class="card">
+								<i class="fas fa-user-tie"></i>
+								<div class="card-body">
+									
+									<h3>Chauffeur Driven</h3>
+									<p>
+										Experience premium comfort and safety with our professional, background-verified drivers.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 py-3 py-md-0">
+							<div class="card">
+								<i class="fas fa-plane-arrival"></i>
+								<div class="card-body">
+									
+									<h3>Airport Transfers</h3>
+									<p>
+										Punctual 24/7 pick-and-drop services for a seamless transition to any airport.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row" style ="margin-top : 10px;">
+						<div class="col-md-4 py-3 py-md-0">
+							<div class="card">
+								<i class="fas fa-gem"></i>
+								<div class="card-body">
+									
+									<h3>Corporate Travel</h3>
+									<p>
+										Professional long-term fleet solutions tailored for business efficiency and VIPs.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 py-3 py-md-0">
+							<div class="card">
+								<i class="fas fa-map-marked-alt"></i>
+								<div class="card-body">
+									
+									<h3>Intercity Tours</h3>
+									<p>
+										Safe and comfortable round-trip travel packages to any city across Pakistan.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 py-3 py-md-0">
+							<div class="card">
+								<i class="fas fa-glass-cheers"></i>
+								<div class="card-body">
+									
+									<h3>Wedding & Events</h3>
+									<p>
+										Make your special day unforgettable with our fleet of elegant, decorated luxury vehicles.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+	<!-- Servises Section -->
+	<!-- Gallery Section -->
+
+		<section class="gallery" id="gallery">
+			<div class="container">
+				<div class="main-text mb-5 text-center">
+					<h1><span>G</span>allery</h1>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 py-3 py-md-0">
+						<div class="card">
+							<img src="gallery/civic.webp" alt="Image">
+						</div>
+					</div>
+					<div class="col-md-4 py-3 py-md-0">
+						<div class="card">
+							<img src="gallery/dalla.jpg" alt="Image">
+						</div>
+					</div>
+					<div class="col-md-4 py-3 py-md-0">
+						<div class="card">
+							<img src="gallery/fortuner.jpg" alt="Image">
+						</div>
+					</div>
+				</div>
+
+				<div class="row" style ="margin-top : 10px;">
+					<div class="col-md-4 py-3 py-md-0">
+						<div class="card">
+							<img src="gallery/land.jpg" alt="Image">
+						</div>
+					</div>
+					<div class="col-md-4 py-3 py-md-0">
+						<div class="card">
+							<img src="gallery/mer.png" alt="Image">
+						</div>
+					</div>
+					<div class="col-md-4 py-3 py-md-0">
+						<div class="card">
+							<img src="gallery/sonata.avif" alt="Image">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+	<!-- Gallery Section -->
+	<!-- Section About -->
+		<section class ="about" id ="about">
+			<div class="container">
+				<div class="main-text">
+					<h1 class ="text-center mb-5">About <span>Us</span></h1>
+				</div>
+
+				<div class="row" style ="padding-bottom : 40px;">
+					<div class="col-md-6">
+						<div class="card">
+							<img src="gallery/about.jpg" alt="Image">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about-content">
+							<h2>How Our Agency Works?</h2>
+							<p>At our agency, we believe renting a car should be as simple as driving one. Built on trust, punctuality, and safety, we offer a premium experience across Pakistan. Choose the freedom of self-drive or the luxury of a professional, background-verified chauffeur. Our secure digital platform allows you to reserve a vehicle in minutes with transparent pricing and no hidden charges. From corporate trips and weddings to Northern Area adventures, we provide the perfect wheels for every journey. Experience a gold-standard service that values your time and safety above all else.</p>
+							<button type ="button" class ="about-btn">Read More...</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- Section About -->
+	<!-- Section Footer -->
+	<footer id="footer">
+		
+			<div class="main-text">
+				<h1 id = "logo" class ="my-3">rent<span id = "logo">C</span>ar</h1>
+			</div>
+			<div class="footer-content">
+				<p class ="text-center pb-2">Providing premium vehicle rentals and professional chauffeur services across all major cities of Pakistan since 2024.</p>
+				<div class="social-links">
+					<i class="fa-brands fa-square-twitter"></i>
+					<i class="fa-brands fa-square-instagram"></i>
+					<i class="fa-brands fa-youtube"></i>
+					<i class="fa-brands fa-square-facebook"></i>
+					<i class="fa-brands fa-linkedin"></i>
+				</div>
+				<div class="credit">
+					<p class ="text-center pb-2">Designed by <a href="#">ALzaraan</a></p>
+				</div>
+				<h5 class="text-center"><span>&copy;</span>All rights are reserved.</h5>
+			</div>
+		
+	</footer>
+	<!-- Section Footer -->
+</body>
+</html>
